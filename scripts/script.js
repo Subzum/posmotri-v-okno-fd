@@ -144,7 +144,7 @@ function showPreloader(tmp, parent) {
   console.log('показал прелоадер');
 }
 
-// Убирает прелоадер из DOM ✅
+// Убирает прелоадер из DOM ✅content__video-card-description
 function removePreloader(parent, preloaderSelector) {
   const preloader = parent.querySelector(preloaderSelector);
   if (preloader) {
